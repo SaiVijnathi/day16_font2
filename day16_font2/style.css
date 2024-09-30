@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@font-face{
+    src:url(./fonts/simple_cake/Simple\ Cake.otf);
+    font-family: "simplecake";
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+img{
+    width: 500px;
+    height: 450px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 20px grey;
+    border: 2px solid black;
+}
+
+#names{
+    display: inline-block;
+    margin-left: 80px;
+    color: rgb(82, 3, 82);
+}
+
+#n1{
+    font-family: "Kavivanar", cursive;
+    font-weight: 600;
+    font-size: 3.5rem;
+    font-style: italic;
+}
+
+#n2{
+    font-family: "Gautami", "Vani", "Nirmala UI", "Akshar", sans-serif;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+#n3{
+    font-family: "Kalam", cursive;
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+#n4{
+    font-family: "simplecake";
+    font-size: 3.7rem;
+    font-style: italic;
+}
+
+#main{
+    background-color: rgb(135, 235, 235);
+    height: 601px;
+    margin:0;
+    padding: 80px 0 0 250px;
+}
+
+#content{
+    width: 1000px;
+}
+
+body{
+    margin: 0;
+    border: 20px solid rgb(5, 90, 90);
+}
